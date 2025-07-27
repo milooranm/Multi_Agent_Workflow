@@ -1,9 +1,15 @@
+from llm_call import LLMHandler
+from prompt_templates import PromptTemplates
+
 class BudgetExpert:
+    def __init__(self):
+        self.llm = LLMHandler()
+
+
     def process_query(self, query: str) -> dict:
         print(f"BudgetExpert received: {query}")
-        return {
-            "can_afford" : True,
-            "estimated_cost": 10000,
-            "budget_remaining": 50000,
-            "rationale": "Mock budget analysis based on query."
-        }
+        formatted_prompt = PromptTemplates.BUDGET_PROMPT.format(query=query)
+        response = self.llm.make_request(formatted_prompt)
+
+
+        return response

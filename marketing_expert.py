@@ -1,8 +1,15 @@
+from llm_call import LLMHandler
+from prompt_templates import PromptTemplates
+
 class MarketingExpert:
+    def __init__(self):
+        self.llm = LLMHandler()
+
+
     def process_query(self, query: str) -> dict:
         print(f"MarketingExpert received: {query}")
-        return {
-            "launch_score": 10, 
-            "channels": "LinkedIn, Youtube", 
-            "tagline": "Mock tagline."
-            }
+        formatted_prompt = PromptTemplates.MARKETING_PROMPT.format(query=query)
+        response = self.llm.make_request(formatted_prompt)
+
+
+        return response

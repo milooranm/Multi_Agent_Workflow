@@ -8,7 +8,9 @@ def main():
         response = orchestrator.process_query(query)
         
         print("Orchestrator Response:")
-        print(response)
+        for i in response:
+            print(f"{i.capitalize()}: {response[i]}")
+        
     except Exception as e:
         print(f"Error in orchestrator processing: {e}")
 
