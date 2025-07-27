@@ -1,0 +1,103 @@
+[
+  {
+    "id": 1,
+    "query": "Can we afford to run a paid acquisition campaign in Q4?"
+  },
+  {
+    "id": 2,
+    "query": "Do we have enough budget to hire a senior ML engineer next month?"
+  },
+  {
+    "id": 3,
+    "query": "What’s the ROI of launching in APAC compared to LATAM?"
+  },
+  {
+    "id": 4,
+    "query": "Should we reduce our marketing budget this quarter?"
+  },
+  {
+    "id": 5,
+    "query": "How much can we invest in product research without going over budget?"
+  },
+  {
+    "id": 6,
+    "query": "Can we store customer data in the US if our users are in the EU?"
+  },
+  {
+    "id": 7,
+    "query": "Are there any legal blockers to launching in Germany?"
+  },
+  {
+    "id": 8,
+    "query": "Is our AI chatbot compliant with privacy regulations in Brazil?"
+  },
+  {
+    "id": 9,
+    "query": "Can we use third-party cookies in our Spanish marketing site?"
+  },
+  {
+    "id": 10,
+    "query": "Do we need specific licenses to operate in Canada?"
+  },
+  {
+    "id": 11,
+    "query": "What’s the best marketing channel to reach B2B SaaS founders in Europe?"
+  },
+  {
+    "id": 12,
+    "query": "How should we position our AI assistant for HR teams?"
+  },
+  {
+    "id": 13,
+    "query": "Can you draft a launch announcement for our new pricing model?"
+  },
+  {
+    "id": 14,
+    "query": "Which social media platforms should we prioritize for our product?"
+  },
+  {
+    "id": 15,
+    "query": "What’s a good tagline for a privacy-first analytics tool?"
+  },
+  {
+    "id": 16,
+    "query": "Can we launch our AI tool in France this quarter?"
+  },
+  {
+    "id": 17,
+    "query": "Is it worth attending SaaStr Europe this year?"
+  },
+  {
+    "id": 18,
+    "query": "Should we localize our onboarding flow for the DACH region?"
+  },
+  {
+    "id": 19,
+    "query": "What would be a good Q3 growth move for a startup with $50K budget?"
+  },
+  {
+    "id": 20,
+    "query": "Can we run a dual-brand campaign targeting healthcare and fintech sectors?"
+  },
+  {
+    "id": 21,
+    "query": "What are the risks of launching a freemium plan next month?"
+  },
+  {
+    "id": 22,
+    "query": "Can we consolidate legal + marketing teams to save costs?"
+  },
+  {
+    "id": 23,
+    "query": "What’s the minimal budget we need to run a compliant launch in the UK?"
+  },
+  {
+    "id": 24,
+    "query": "Should we outsource our GTM efforts in Southeast Asia?"
+  },
+  {
+    "id": 25,
+    "query": "What does a compliant, low-cost go-to-market plan look like for India?"
+  }
+]
+

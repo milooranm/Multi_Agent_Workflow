@@ -15,4 +15,4 @@ having got those working the next step I'm going to do is create hardcoded files
 Got the operator working and handling the inputs for each based on keywords being accounted for. Will adjust keywords to handle all the sample requests.
 Added LLM calls to the agents, decided to go extra modular rather than writing the code to make API calls several times I would include that somewhere else. I did the same thing with the prompts, so that they can all be tailored and edited from the same place without needing to alter the agent files themselves.
 I should add error handling for the json outputs for each.
-Next step is deciding how I want the Orchestrator to utilise the json responses.
+Next step is deciding how I want the Orchestrator to utilise the json responses and synthesise a response based on it's own response
