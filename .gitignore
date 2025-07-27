@@ -1,6 +1,5 @@
 .env
 *.env
-.env.*
 config/secrets.yml
 *.key
 *.pem
