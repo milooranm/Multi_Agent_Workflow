@@ -18,7 +18,7 @@ I should add error handling for the json outputs for each.
 Next step is deciding how I want the Orchestrator to utilise the json responses and synthesise a response based on it's own response
 After getting that working I wanted a real quick fastapi implementation and decided thst answering a randow query from the list each run would allow for minimal html and allow me to test the outputs based on different inputs.
 
-### next steps and conclusions
+## next steps and conclusions
 
 the keyword decomposition from the orchestrator is definitely insufficient but easily rectified
 
